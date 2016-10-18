@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/discovers/discovers",
+    "pages/whwds/whwds"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "teal",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#000",
+    "enablePullDownRefresh":true
+    
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "selectedColor":"red",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+     "list": [{
+      "pagePath": "pages/index/index",
+     
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/home-actived.png",
+       "text": "微信"
+    }, {
+      "pagePath": "pages/logs/logs",
+      
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/home-actived.png",
+      "text": "通讯录"
+    }, {
+      "pagePath": "pages/discovers/discovers",
+     
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/home-actived.png",
+       "text": "发现"
+    },{
+      "pagePath": "pages/whwds/whwds",
+     
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/home-actived.png",
+       "text": "我"
+    }]},
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
+

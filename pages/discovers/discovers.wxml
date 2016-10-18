@@ -1,0 +1,12 @@
+<view>{{text}}</view>
+<text>{{msg[0]}}</text>
+<text>{{msg[1]}}</text>
+<view>{{json.name}}{{json.sex}}</view>
+
+<!--view绑定点击事件-->
+<view bindtap="viewTap">click me ！</view>
+<button bindtap="btnclick"> button </button>
+
+
+<button bindtap="changeValue"> changeValue </button>
+<button bindtap="getValue"> getValue </button>
